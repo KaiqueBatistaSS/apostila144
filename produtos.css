@@ -23,3 +23,20 @@ nav a {
     color: #000000;
     text-decoration: none;
     }
+    .produtos{
+        width: 940px;
+        margin: 0 auto;
+        padding: 50px 0;
+        
+    }
+    .produtos li{
+        display: inline-block;
+      text-align: center;
+      width: 30%;
+      vertical-align: top;
+      
+    }
+    .produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+    }
