@@ -42,3 +42,9 @@ margin: 0 15% 0 0;
 .principal{
     text-align: center;
 }
+footer{
+    
+    background-image: url(./img/bg.jpg);
+    text-align: center;
+    color:white
+}
