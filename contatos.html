@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatos - Barbearia Space for Men</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="contatos.css">
+</head>
+<body>
+    
+
+<header>
+   <div class="caixa">
+            <h1><img src="./img/logo.png" alt="logo"></h1>
+            <nav>
+
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="contatos.html">Contatos</a></li>
+                </ul>
+
+            </nav>
+        </div>
+</header>
+<main>
+
+
+<form action="">
+
+    <label for="nome">Nome e Sobrenome</label>
+    <input type="text" id="nome"class="inputs-padrao" required >
+
+    <label for="email">E-mail</label>
+    <input type="email" id="email" class="inputs-padrao" required placeholder="seu.email@dominio.com">
+
+    <label for="tel">Telefone</label>
+    <input type="tel" id="tel"class="inputs-padrao" required placeholder="(99) 9999-9999">
+
+    <label for="mensagem">Mensagem</label>
+    <textarea name="mensagem" id="mensagem" cols="67" rows="10"></textarea>
+    <legend >Como prefere o nosso contato ?</legend>
+     
+    <label for="radio-email"><input type="radio" name="contato" id="radio-email"> E-mail</label>
+    
+
+    <label for="radio-telefone"><input type="radio" name="contato" id="radio-telefone"> Telefone</label>
+    
+
+    <label for="radio-whatsapp"><input type="radio" name="contato" id="radio-whatsapp"> WhatsApp</label>
+
+    <legend>Qual horário prefere ser atendido ?</legend>
+    <select name="assunto" id="assunto">
+        <option value="manha">Manhã</option>
+        <option value="tarde">Tarde</option>
+        <option value="noite">Noite</option>
+    
+
+
+
+
+
+    </select>
+
+    <label for="checkbox"><input type="checkbox" name="novidades" id="checkbox" class="checkbox"> Gostaria de receber novidades por e-mail</label>
+    
+
+
+    <input type="submit" value="Enviar" class="enviar">
+
+</form>
+
+<table>
+<thead>
+<tr>
+<td>Dia</td>
+<td>Horario</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Segunda-Feira</td>
+<td>08 ~ 20h</td>
+</tr>
+</tbody>
+<tr>
+<td>Quarta-Feira</td>
+<td>08 ~ 20h</td>
+</tr>
+<tr>
+<td>Sexta-Feira</td>
+<td>08 ~ 20h</td>
+</tr>
+</table>
+
+</main>
+<footer>
+       <img src="./img/logo-branco.png" alt="logo branco">
+        <p>&#169; Copyright Barbearia Space for Men &#169;</p>
+</footer>
+
+
+</body>
+</html>
