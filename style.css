@@ -32,15 +32,35 @@ nav a {
         width: 100%;
     }
 main {
-    
     width: 940px;
     margin: 0 auto;
   
+     }
+     .principal p {
+     margin: 0 0 1em;
+     }
+     .principal strong{
+        font-weight: bold;
+        color: red
+     }
+     .principal em{
+        font-style: italic;
+     }
+     .titulo-principal{
+        text-align: center;
+        font-size: 2em;
+        margin: 0 0 1em;
     }
 
+.utensilios{
+    width: 150px;
+     }
+.imagembeneficio{
+    width: 60%;
+     }
 footer{
     
     background-image: url(./img/bg.jpg);
     text-align: center;
     color:white
-}
+    }
